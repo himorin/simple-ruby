@@ -89,6 +89,12 @@ li > a.self-link::before {
 	border-left: 4px solid coral;
 	padding-left: .5em;
 	}
+div#unmaintained-warning,
+div#unmaintained-warning > aside,
+div#unmaintained-warning span {
+  background-color: #FF9999;
+  border-color: var(--outdated-bg);
+}
 </style>
 </head>
 <body>
@@ -96,6 +102,26 @@ li > a.self-link::before {
 <p>A simple set of rules for placement of Ruby text in Japanese typography.</p>
 </section>
 <section id="sotd">
+<aside class="note deprecation-box" id="unmaintained-warning" title="This document has not been maintained nor updated">
+  <p>
+    While many of the materials in this document are valid and not out of date; the <abbr title="World Wide Web Consortium">W3C</abbr> is maintaining this version solely as a historical reference.
+    This document was originally produced as an update for sections about Ruby (such as 
+      <a href="https://www.w3.org/TR/jlreq/#ruby_and_emphasis_dots">Ruby and Emphasis Dots</a>, 
+      <a href="https://www.w3.org/TR/jlreq/#positioning_of_jukugoruby">Positioning of Jukugo-ruby</a>
+    ) in the <a href="https://www.w3.org/TR/jlreq/">Requirements for Japanese Text Layout</a> Working Group Note.
+    <br>
+    In 2024, work has been transferred to the <a href="https://github.com/w3c/jlreq-d/">Requirements for Japanese Digital Text Layout</a> (jlreq-d) document 
+    as an updated version of the <a href="https://www.w3.org/TR/jlreq/">Requirements for Japanese Text Layout</a> document.
+    If you wish to make comments regarding this document, please raise them as <a href="https://github.com/w3c/jlreq-d/issues">GitHub issue in jlreq-d repository</a>.
+    All comments are welcome.
+    <br>
+    To make it easier to track comments, please raise separate issues or emails for each comment, 
+    and point to the section you are commenting on  using a URL for the dated version of the document.
+  </p>
+
+  Many of the materials in this document are stale and out of date; the W3C is maintaining this version solely as a historical reference. 
+  This document was originally produced as a joint publication between the W3C and the Unicode Consortium. In 2016, Unicode withdrew publication as a Unicode Technical Report. 
+</aside>
 <p> This document was initially written in Japanese
   and translated to English
   by the <a href="https://www.aplab.jp/jwt">Japanese Writing Technology</a> Working Group
